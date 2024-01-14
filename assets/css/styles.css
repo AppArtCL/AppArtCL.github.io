@@ -1,0 +1,100 @@
+:root {
+    --blanco: #fff;
+    --negro: #000;
+    --gris: #bbbbbb;
+    --azul: #070783;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: var(--negro);
+    background-color: var(--blanco);
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    background-image: url(../imgs/fondo_header.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+h1 {
+    margin: 0px 0px 0px 10px;
+    font-weight: 700;
+    font-size: 2.5em;
+    color: var(--blanco);
+    text-shadow: var(--negro) 2px 3px;
+}
+h2 {
+    margin: 0px 0px 0px 10px;
+    font-weight: 400;
+    font-size: 2em;
+    color: var(--blanco);
+    text-shadow: var(--negro) 2px 3px;
+}
+h3 {
+    margin: 10px;
+    font-weight: 700;
+    font-size: 1.4em;
+    color: var(--negro);
+}
+h4 {
+    margin: 15px 0px 0px 0px;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: var(--negro);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: var(--azul);
+    list-style-type: none;
+    margin: 0px;
+}
+nav li {
+    padding: 0.5em;
+    font-size: 1em;
+    font-weight: 400;
+}
+nav a {
+    text-decoration: none;
+    color: var(--blanco);
+    padding: 0.5em;
+}
+nav a:hover {
+    color: var(--azul);
+    background-color: var(--blanco);
+}
+nav a:active {
+    color: var(--azul);
+    background-color: var(--blanco);
+    font-weight: 700;
+}
+
+.personal-contenedor {
+    display: flex;
+    align-items: center;
+}
+.personal-contenedor p {
+    margin: 0px;
+}
+.personal-contenedor img {
+    margin: 10px;
+    max-height: 200px;
+}
+.titulo-lista {
+    font-weight: 700;
+}
+
+footer {
+    background-color: var(--azul);
+    height: 50px;    
+}
