@@ -102,7 +102,8 @@ nav a:active {
 
 .work div,
 .teaching div,
-header div {
+header div,
+.texto-galeria {
     margin: 0px 0px 0px 20px;
 }
 
@@ -126,4 +127,41 @@ footer p {
     margin: 0px;
     padding: 0px;
     text-align: center;
+}
+.portafolio {
+    display: flex;
+    justify-content: center;
+}
+.galeria {
+    width: 80%;
+}
+.elemento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: var(--gris);
+    border-top-style: solid;
+    border-top-width: 1px;
+    padding: 10px 0px;
+}
+.texto-izq {
+    text-align: left;
+    width: 30%;
+    padding-right: 10px;
+}
+.imagen {
+    text-align: center;
+    width: 600px;
+}
+.texto-der {
+    text-align: right;
+    width: 30%;
+    padding-left: 10px;
+    flex-wrap: nowrap;
+}
+.galeria img {
+    border-color: var(--gris);
+    border-style: solid;
+    border-width: 1px;
+    object-fit: scale-down;
 }
