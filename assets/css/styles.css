@@ -103,7 +103,8 @@ nav a:active {
 .work div,
 .teaching div,
 header div,
-.texto-galeria {
+.texto-main,
+.links {
     margin: 0px 0px 0px 20px;
 }
 
@@ -164,4 +165,15 @@ footer p {
     border-style: solid;
     border-width: 1px;
     object-fit: scale-down;
+}
+.links ul {
+    list-style-type: none;
+    font-weight: 400;
+}
+.links li {
+    padding: 4px 0px 4px 20px;
+}
+.links a {
+    text-decoration: none;
+    color: var(--negro);
 }
