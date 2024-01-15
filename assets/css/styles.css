@@ -25,6 +25,12 @@ header {
     background-size: auto;
     background-repeat: no-repeat;
 }
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
 h1 {
     margin: 0px;
     font-weight: 700;
